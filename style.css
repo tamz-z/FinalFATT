@@ -1,0 +1,489 @@
+body {
+    background-color: #89CCEA;
+    width: 100vw;
+    color: white;
+    font-family: K;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+
+
+.logo {
+    width: 100px;
+}
+
+
+.cityverder {
+    background-color: #BBA89A;
+    height: 700px;
+    margin-top: -7px;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #bba89a 0%, #febe8c 100%);
+    height: 300px;
+}
+
+.spaceverder {
+    background-color: #20929E;
+    height: 800px;
+    margin-top: -7px;
+}
+
+.navtekst {
+    display: flex;
+    background-color: #89CCEA;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.positiontekst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-family: 'Karantina', system-ui;
+    color: white;
+    font-size: 40px;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    font-family: 'Karantina', system-ui;
+    color: white;
+    font-size: 150px;
+}
+
+h3 {
+    display: flex;
+    text-align: center;
+    font-family: 'Karantina';
+    color: white;
+    font-weight: 100;
+    font-size: 39px;
+    position: relative;
+    top: 10px;
+    width: 50%;
+}
+
+.teks {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.overgangzand {
+    height: 300px;
+    background: linear-gradient(to bottom, #20929e 0%, #2d6d72 100%);
+}
+
+
+.sant {
+    margin-top: -7px;
+    height: 1000px;
+    background: linear-gradient(to bottom, #9e4f24 0%, #fda318 100%);
+}
+
+.bosnaaruimte {
+    margin-top: -7px;
+    height: 300px;
+    background: linear-gradient(to bottom, #593906 0%, #251A19 100%);
+}
+
+.bos {
+    height: 1700px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sjop {
+    height: 450px;
+    width: 400px;
+    background-color: lightcoral;
+}
+
+
+.ruimteovergang {
+    background: linear-gradient(84deg,
+            #533d45 15.93%,
+            #675863 57.65%,
+            #807c92 99.17%);
+    height: 1800px;
+    margin-top: -5px;
+}
+
+.zandnaarzon {
+    background: linear-gradient(to bottom, #9E4F24 0%, #FDA318 100%);
+    height: 1000px;
+    width: 500px;
+}
+
+
+.cm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+.vakkie {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+
+
+}
+
+.klein {
+    height: 300px !important;
+}
+
+.width80 {
+    width: 80%;
+}
+
+
+
+.kleur1 {
+    background-color: gold;
+}
+
+.kleur2 {
+    background-color: greenyellow;
+}
+
+.kleur3 {
+    background-color: skyblue;
+}
+
+.kleur4 {
+    background-color: violet;
+}
+
+
+
+
+
+.fotorondje {
+    width: 200px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+
+.shop-block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.header {
+    position: relative;
+    text-align: center;
+
+}
+
+
+ 
+.flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+
+    min-height: 100px;
+    max-height: 150px;
+    background: linear-gradient(to right, #543e46 30%, #807c92 100%);
+}
+
+/* Animation */
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.60, .5, .40, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+
+    animation-duration: 20s;
+}
+
+.parallax>use:nth-child(2) {
+
+    animation-duration: 15s;
+}
+
+.parallax>use:nth-child(3) {
+
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(4) {
+
+    animation-duration: 5s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+.blauw-footer {
+    height: 600px;
+    width: 100%;
+    background-color: #654D56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo {
+    width: auto;
+    height: auto;
+}
+
+.footernav {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 50%;
+    height: 40vh;
+}
+
+
+.pixel30 {
+    font-size: 2.1vw;
+}
+
+
+.icons {
+    width: 70%;
+    height: 10vh;
+}
+
+.icoon {
+    height: 40px;
+    width: 40px;
+}
+
+.footernavigatiebalk {
+    height: 10vh;
+    width: 70%;
+}
+
+.mail {
+    width: 40%;
+    height: 60px;
+    background-color: #654D56;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+textarea {
+    width: 40%;
+    height: 300px;
+    background-color: #654D56;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+a {
+    font-family: 'Karantina', system-ui;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.font-area {
+    font-family: 'MuseoModerno', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 70%;
+}
+
+.knop {
+    width: 150px;
+    height: 50px;
+    background-color: #654D56;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    color: white;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    position: relative;
+  top: 4547px;
+}
+
+
+button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(to left,
+            hsl(34, 100%, 16%) 0%,
+            hsl(32, 100%, 32%) 8%,
+            hsl(32, 100%, 32%) 92%,
+            hsl(36, 100%, 16%) 100%);
+}
+
+.front {
+    justify-content: space-between;
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: #EA7022;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.Container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+.Homecontainer{
+    position: relative;
+    width: 100%;
+    height: 1020px;
+}
+.Homecontainer p{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Karantina', system-ui;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 200px;
+    font-weight: 500;
+}
+.Container img{
+    width: 300px;
+    height: 400px;
+}
+.Container button{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+.Container p{
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    font-family: 'Karantina', system-ui;
+    color: #D05D14;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+}
+button:hover {
+    filter: brightness(110%);
+}
+
+button:hover .front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none;
+}
